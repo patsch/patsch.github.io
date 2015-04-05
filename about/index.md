@@ -10,16 +10,25 @@ image:
   creditlink: https://www.flickr.com/photos/dockhorn/16153352929
 ---
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
+One day in 2003 I was on a train in Melbourne, Australia, returning home unusually early from working as a contractor, when I looked
+outside and saw two children in their uniforms, holding hands and walking home from school
 
-## Minimal Mistakes is all about:
+I realised then that I hardly ever saw what the city I lived in looked like during daytime. I saw it in the early morning and evening, but
+I hardly ever saw children returning home from school.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+I had two small children of my own at the time - my daughter had just started primary school and my son was in childcare -
+and I wasn't seeing them much as I wanted to. So I turned down the next contract extension
+and instead started my own business.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+#### In the end for me it was all about having more options. Running my own business gave me more options
+* more options to organise my working hours
+* more options regarding taking holidays when I wanted them
+* the freedom to pursue the kind of work I wanted to do
+* and also more options where I did my work
+
+More than 10 years on, me & a small team of worker bees are now looking after a number of online businesses, serving consumers, government and corporate customers, with an increasing focus on mobile. I still enjoy building stuff, so
+ if you need something done that involves a mobile app, don't hesitate to contact me.
+
+[How we spend our days, is, of course, how we spend our lives. -- Annie Dillard](http://www.brainpickings.org/2013/06/07/annie-dillard-the-writing-life-1/)
+{: .notice}
+

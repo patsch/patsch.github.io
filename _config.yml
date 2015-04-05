@@ -10,6 +10,7 @@ url:
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -30,7 +31,7 @@ owner:
   avatar: bio-photo.jpg
   bio: "Micro DevOp, Maker of Software Robots & Soccer Leftwinger"
   email: patrick@apptastic.com.au
-  disqus-shortname: patsch06
+  disqus-shortname: vox-nihili
   twitter: panondo
   facebook: patsch
   google:
