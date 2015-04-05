@@ -1,11 +1,8 @@
-.idea/*
-.idea
 _site
-.DS_Store
-.jekyll
-.bundle
 .sass-cache
-Gemfile
-Gemfile.lock
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
 node_modules
-package.json
+_asset_bundler_cache

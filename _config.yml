@@ -1,0 +1,60 @@
+# Site wide configuration
+
+title:            vox nihili
+locale:           en_AU
+url:              
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Patrick Dockhorn
+  avatar: bio-photo.jpg
+  bio: "Micro DevOp, Maker of Software Robots & Soccer Leftwinger"
+  email: patrick@apptastic.com.au
+  disqus-shortname: patsch06
+  twitter: panondo
+  facebook: patsch
+  google:
+    plus: patrick.dockhorn
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: patsch
+  stackoverflow: http://stackoverflow.com/users/393545/patschiboy
+  linkedin: patrickdockhorn
+  xing: patsch
+  instagram: panondo
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: patrick06
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "docs", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
