@@ -3,11 +3,15 @@
 - title: About
   url: /about/
 
-- title: Sample Posts
-  url: /posts/
+#- title: Ruby
+#  url: /ruby/
 
-- title: Theme Setup
-  url: /theme-setup/
+#- title: iOS
+#  url: /ios/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
+- title: Misc
+  url: /misc/
+
+#- title: Theme Setup
+#  url: /theme-setup/
+

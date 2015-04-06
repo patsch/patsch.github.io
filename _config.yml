@@ -55,7 +55,7 @@ owner:
   youtube: #username
   soundcloud: #username
   weibo: #username
-  flickr: patrick06
+  flickr: dockhorn
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "docs", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

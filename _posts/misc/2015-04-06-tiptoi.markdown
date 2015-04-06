@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Tiptoi"
+modified:
+categories: misc
+comments: true
+excerpt: Tiptoi is an extensible toy by Ravensburger, a german toy manufacturer. It has created a large following, partly due to the fact that you can build your own audio-enhanced books & puzzles with it.
+tags: [tiptoi, tttool, macosx, ravensburger]
+image:
+  feature: tiptoi_feature.png
+  credit: lobbes.nl
+  creditlink: http://www.lobbes.nl/images/items/2140997b.jpg
+date: 2015-04-06T14:55:45+10:00
+---
+
+Ravensburger is a german toy manufacturer and a market leader in Europe in games and children's book.
+
+
+In 2010 the company designed a new product, tiptoi, originally intended as a digital audio learning system for children aged 4 and up, which has since taken Germany by storm.
+Tiptoi looks like a large pen, and includes an optical sensor that reacts to barely visible codes printed on the toy that then trigger some basic logic to be executed via code that has
+ previously been loaded into Tiptoi via an USB interface; in its simplest form an audio file is played when a certain code is detected on the toy.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=voxnihili-20&marketplace=amazon&region=US&placement=3473329118&asins=3473329118&linkId=ZR7XIXRUBITR7VCY&show_border=true&link_opens_in_new_window=true"></iframe>
+
+As of 2015 Ravensburger is selling over different 100 books, puzzles, games & animal figurines that can interact with TipToi. One example of such a toy is a large world map, where the child can move the pen over a country which then triggers and audio file to be played by the pen, explaining facts about the particular country.
+
+### tttool
+
+Tiptoi has created a large following outside the products provided by Ravensburger as well, especially since [Entropia](https://www.entropia.de), a community group in Karlsruhe affiliated with the Chaos Computer Club, helped in reverse engineering the pen and
+created an [OpenSource tool called tttool](https://github.com/entropia/tip-toi-reveng), that allows for everyone to annotate their own books, puzzles etc. with audio narration driven by Tiptoi.
+
+
+c't, a popular german computer magazine, has also [published an article](http://www.heise.de/ct/ausgabe/2015-8-Eigene-Buecher-und-Spiele-fuer-den-Tiptoi-vertonen-2578001.html) about TipToi and how to use it for a DIY speaking book.
+
+
+It is fairly easy to create your own version of tttool on a Mac, however if you don't want to install over 1.5GB of code for the Haskell development environment, you can directly download [tttool Version 1.3](http://bit.ly/1F461SU) for MacOSX Yosemite here.
+
+
+### Installing tttool on the Mac
+
+* Download & Install the [latest Haskell Platform for MacOSX](https://www.haskell.org/platform/download/2014.2.0.0/Haskell%20Platform%202014.2.0.0%2064bit.signed.pkg)
+* Clone the tttool git repo
+
+{% highlight bash %}
+$ git clone git@github.com:entropia/tip-toi-reveng.git
+{% endhighlight %}
+
+* Update the cabal tool (Haskell's 'make') and install dependencies
+
+{% highlight bash %}
+$ cd tip-toi-reveng-1.3
+$ cabal update
+$ cabal install --only-dependencies
+{% endhighlight %}
+
+* Build tttool
+{% highlight bash %}
+$ cabal install --bindir=.
+{% endhighlight %}
+
+* Now you can access tttool from the local directory
+
+{% highlight bash %}
+$ ./tttool
+{% endhighlight %}
+
+
+
+
+
+
