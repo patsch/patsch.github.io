@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
+excerpt: "This & That from Apptastic, a Sydney based mobile app development company."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: kayjj.jpg
