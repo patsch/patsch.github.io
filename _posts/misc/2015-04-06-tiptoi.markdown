@@ -22,7 +22,7 @@ Tiptoi looks like a large pen, and includes an optical sensor that reacts to bar
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=voxnihili-20&marketplace=amazon&region=US&placement=3473329118&asins=3473329118&linkId=ZR7XIXRUBITR7VCY&show_border=true&link_opens_in_new_window=true"></iframe>
 
-As of 2015 Ravensburger is selling over different 100 books, puzzles, games & animal figurines that can interact with TipToi. One example of such a toy is a large world map, where the child can move the pen over a country which then triggers and audio file to be played by the pen, explaining facts about the particular country.
+As of 2015 Ravensburger is selling over 100 different books, puzzles, games & animal figurines that can interact with TipToi. One example of such a toy is a large world map, where the child can move the pen over a country which then triggers and audio file to be played by the pen, explaining facts about the particular country.
 
 ### tttool
 
