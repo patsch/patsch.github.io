@@ -64,4 +64,10 @@ $(document).ready(function() {
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
   });
+
+  // PD added April 2015 for Sunlight Code Highlighting
+  // this doesn't do anything because the minified scripts.min.js
+  // is never changed unless we install grunt ourselves and run it again...
+  // alert('before highlight');
+  Sunlight.highlightAll();
 });
