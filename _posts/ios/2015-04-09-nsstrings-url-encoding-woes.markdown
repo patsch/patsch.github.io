@@ -13,7 +13,7 @@ date: 2015-04-09T11:29:06+10:00
 ---
 
 <pre>
- <code class="objective-c">
+ <code class="objc">
 -(void)loginWith:(NSString*)login
 {
   return [NSString stringWithFormat:@"bla"];
