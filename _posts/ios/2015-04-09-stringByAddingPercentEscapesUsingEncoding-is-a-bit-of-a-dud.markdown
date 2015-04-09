@@ -122,7 +122,7 @@ for (int i = 0 ; i < [titles count] ; i++)
 
 and the output is this:
 
-<div class="sunlight-highlight-bash">
+<pre class="sunlight-highlight-bash">
 
 2015-04-09 11:27:23.961 EscapeTest[77093:4331738]
 ------------------------
@@ -144,4 +144,4 @@ Escaping all but URL Query allowed characters
 Escaping all but alphanumeric characters
 2015-04-09 11:27:23.963 EscapeTest[77093:4331738] Name  : %5F%5FEVENTVALIDATION
 2015-04-09 11:27:23.963 EscapeTest[77093:4331738] Value : %2FQK1qb
-</div>
+</pre>
