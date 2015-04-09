@@ -12,9 +12,11 @@ image:
 date: 2015-04-09T11:29:06+10:00
 ---
 
-{% highlight ruby %}
-def what?
-  puts "bla"
-  42
-end
-{% endhighlight %}
+<pre>
+ <code class="objective-c">
+-(void)loginWith:(NSString*)login
+{
+  return [NSString stringWithFormat:@"bla"];
+}
+ </code>
+</pre>
