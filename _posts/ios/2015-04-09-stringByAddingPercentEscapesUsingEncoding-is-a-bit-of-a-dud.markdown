@@ -85,7 +85,7 @@ changed the way they should be - and the login worked straight away.
 
 Here is some test code I wrote to illustrate the issue:
 
-<pre>
+<div class="sunlight-highlight-objective-c">
 
 NSString *name = @"__EVENTVALIDATION";
 NSString *value = @"/QK1qb";
@@ -117,7 +117,7 @@ for (int i = 0 ; i < [titles count] ; i++)
     NSLog(@"Name  : %@",names[i]);
     NSLog(@"Value : %@",values[i]);
 }
-</pre>
+</div>
 
 and the output is this:
 <pre class="sunlight-highlight-bash">
@@ -141,4 +141,4 @@ Escaping all but URL Query allowed characters
 Escaping all but alphanumeric characters
 2015-04-09 11:27:23.963 EscapeTest[77093:4331738] Name  : %5F%5FEVENTVALIDATION
 2015-04-09 11:27:23.963 EscapeTest[77093:4331738] Value : %2FQK1qb
-</pre>
+</div>
