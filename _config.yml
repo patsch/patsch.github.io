@@ -11,6 +11,9 @@ permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
 
+maruku:
+  fenced_code_blocks: true
+
 sass:
   sass_dir: _sass
   style: compressed

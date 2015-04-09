@@ -3,14 +3,17 @@
 - title: About
   url: /about/
 
-#- title: Ruby
+# - title: Ruby
 #  url: /ruby/
 
-#- title: iOS
-#  url: /ios/
+- title: iOS
+  url: /ios/
 
 - title: Misc
   url: /misc/
+
+- title: All
+  url: /posts/
 
 #- title: Theme Setup
 #  url: /theme-setup/

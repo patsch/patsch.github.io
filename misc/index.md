@@ -1,6 +1,7 @@
 ---
 layout: post-index
 title: A mixed bag of posts
+category: misc
 excerpt: "A mixed bag of posts"
 image:
   feature: snow_feature2048.jpg

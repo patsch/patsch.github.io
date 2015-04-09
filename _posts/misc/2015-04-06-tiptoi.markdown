@@ -41,28 +41,36 @@ It is fairly easy to create your own version of tttool on a Mac, however if you 
 * Download & Install the [latest Haskell Platform for MacOSX](https://www.haskell.org/platform/download/2014.2.0.0/Haskell%20Platform%202014.2.0.0%2064bit.signed.pkg)
 * Clone the tttool git repo
 
-{% highlight bash %}
+<pre class="sunlight-highlight-bash">
+
 $ git clone git@github.com:entropia/tip-toi-reveng.git
-{% endhighlight %}
+
+</pre>
 
 * Update the cabal tool (Haskell's 'make') and install dependencies
 
-{% highlight bash %}
+<pre class="sunlight-highlight-bash">
+
 $ cd tip-toi-reveng-1.3
 $ cabal update
 $ cabal install --only-dependencies
-{% endhighlight %}
+
+</pre>
 
 * Build tttool
-{% highlight bash %}
+<pre class="sunlight-highlight-bash">
+
 $ cabal install --bindir=.
-{% endhighlight %}
+
+</pre>
 
 * Now you can access tttool from the local directory
 
-{% highlight bash %}
+<pre class="sunlight-highlight-bash">
+
 $ ./tttool
-{% endhighlight %}
+
+</pre>
 
 
 
