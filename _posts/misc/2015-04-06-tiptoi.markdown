@@ -58,11 +58,13 @@ $ cabal install --only-dependencies
 </pre>
 
 * Build tttool
-<pre class="sunlight-highlight-bash">
+
+
+<div class="sunlight-highlight-bash">
 
 $ cabal install --bindir=.
 
-</pre>
+</div>
 
 * Now you can access tttool from the local directory
 
