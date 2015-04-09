@@ -13,7 +13,7 @@ date: 2015-04-09T11:29:06+10:00
 ---
 
 I'm writing this little iPhone App for my local soccer club; the idea is that it first identifies the player by scraping some of their details, in particular the club they play for, off the official FFA website,
- then the get the draw & results for that club from another site.
+ then to get the draw & results for that club from another site.
 
 ### URL Encoding
 I usually go with [AFNetworking](https://github.com/AFNetworking/AFNetworking), but had already gotten a working setup that just used
