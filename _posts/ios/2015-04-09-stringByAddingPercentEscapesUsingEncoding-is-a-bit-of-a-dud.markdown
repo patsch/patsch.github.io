@@ -120,7 +120,7 @@ for (int i = 0 ; i < [titles count] ; i++)
 </div>
 
 and the output is this:
-<pre class="sunlight-highlight-bash">
+<div class="sunlight-highlight-bash">
 2015-04-09 11:27:23.961 EscapeTest[77093:4331738]
 ------------------------
 Original
