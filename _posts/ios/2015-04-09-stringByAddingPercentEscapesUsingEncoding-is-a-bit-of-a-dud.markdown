@@ -3,6 +3,7 @@ layout: post
 title: "stringByAddingPercentEscapesUsingEncoding is a bit of a dud"
 modified:
 categories: ios
+comments: true
 excerpt: When trying to screenscrape a website from within an iPhone app, I found that everything is not as it seems with NSString's URL encoding capabilities.
 tags: [ios,objective-c,nsstring,http,url encoding,hpple]
 image:
