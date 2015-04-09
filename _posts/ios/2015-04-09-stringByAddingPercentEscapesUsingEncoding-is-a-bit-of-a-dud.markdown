@@ -83,8 +83,9 @@ the string that way, it remained again unchanged.
 Only after I called <code class="bx">stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet alphanumericCharacterSet]</code> on my string were they finally
 changed the way they should be - and the login worked straight away.
 
-Here's some test code I wrote to illustrate the issue:
-<pre class="sunlight-highlight-objective-c">
+Here is some test code I wrote to illustrate the issue:
+
+<pre>
 
 NSString *name = @"__EVENTVALIDATION";
 NSString *value = @"/QK1qb";
