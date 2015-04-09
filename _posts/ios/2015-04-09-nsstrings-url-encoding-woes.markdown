@@ -12,10 +12,9 @@ image:
 date: 2015-04-09T11:29:06+10:00
 ---
 
-~~~ ruby
+{% highlight ruby %}
 def what?
   puts "bla"
   42
 end
-~~~
-
+{% endhighlight %}
